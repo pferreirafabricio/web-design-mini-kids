@@ -4,6 +4,9 @@
 
 - [Mini Kids](http://pferreirafabricio.gq)
 
+> OBS: O site foi adicinado a um serviço de hospedagem gratuito somente para fins de demonstração.<br/>
+> Serviço utilizado: [Infinity Free](https://infinityfree.net)
+
 ## :man_technologist: Tecnologias usadas
 
 O projeto foi desenvolvido com as seguintes tecnologias:
