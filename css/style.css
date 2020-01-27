@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*
+{
+	font-family: Roboto;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.bordaBaixo
+{
+	border-bottom: 2px rgb(223, 223, 223) solid;
+}
+
+.padding-encima
+{
+	padding-top: 0px;
+}
+
+.padding-baixo
+{
+	padding-bottom: 20px;
+}
+
+.divBotoes
+{
+	position: relative;
+	margin-top: 100px;
+}
+
+.btnQueroJogar
+{
+	background-color: purple !important; 
+	border:0px !important;
+}
+
+.btnJogueAgora
+{
+	background: linear-gradient(0deg, rgb(255, 123, 0), yellow);
+	width: 200px;
+	height: 57px;
+
+	border-radius: 100px;
+	border: none;
+
+	font-size: 20px;
+	font-family: Roboto;
+	color: #000;
+	font-weight: bold;
+
+	
+	cursor: pointer;
+	/* box-shadow: 0 2px 4px rgba(36,8,128,0.2); */
+	transition: all 0.5s ease-in-out;
+	
+}
+
+.btnJogueAgora:hover
+{
+	box-shadow: 0px 0px 20px rgb(252, 50, 0);
+}
+
+.btnVideo
+{
+	color: purple;
+	font-size: 57px;
+	cursor: pointer;
+	vertical-align: middle;
+	margin-left: 30px;
+	text-shadow: 0px 5px 10px rgba(211, 0, 200, 0.2);
+	transition: all 0.5s ease-in-out;
+}
+
+.btnVideo:hover
+{
+	text-shadow: 0px 5px 10px rgb(252, 50, 0);
+}
+
+.txtMini
+{
+	font-weight: bold;
+}
+
+.txtRoxo
+{
+	color: purple;
+}
+
+
+.txtAmarelo
+{
+	color: #FFC107;
+}
+
+/* Utilizado na seção QUEM SOMOS */
+.txtMenor
+{
+	font-size: 16px;
+}
+
+.gradient-icon
+{
+	width: 3.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	border-radius: 0.8rem;
+	text-align: center;
+	display: inline-block;
+	background-color: red;
+	color: black;
+	margin-bottom: 1rem;
+}
+
+.gradient-1
+{
+	background: linear-gradient(0deg, green, yellow); 
+	/* rgb(0, 153, 255) */
+	box-shadow: 0 2px 4px rgba(36,8,128,0.2);
+}
+
+.gradient-2
+{
+	background: linear-gradient(0deg, red, yellow);
+	box-shadow: 0 2px 4px rgba(36,8,128,0.2);
+}
+
+.gradient-3
+{
+	background: linear-gradient(0deg, rgb(243, 3, 243),yellow);
+	box-shadow: 0 2px 4px rgba(36,8,128,0.2);
+}
+
+.sub-titulo
+{
+	font-weight: bold;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+}
+
+p
+{
+	margin-top:0;
+	margin-bottom: 1rem;
+	font-weight: lighter;
+}
+
+.caracteristica-link
+{
+	font-weight: 600;
+	color: purple;
+	text-decoration: none;
+	outline: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.caracteristica-link:hover
+{
+	color: #FFC107;
+	text-decoration: none;
+	outline: none;
+}
+
+.btnSaibaMais
+{
+	color: purple !important;
+    border-color: purple !important;
+}
+
+.btnSaibaMais:hover
+{
+	color: white !important;
+	background-color: purple;
+}
+
+.card
+{
+	transition: all 0.3s ease-in-out;
+}
+
+.card:hover
+{
+	box-shadow: 10px 7px 10px rgba(36,8,128,0.2);
+	transition: all 0.3s ease-in-out;
+}
+
+
+.redes-sociais li
+{
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.redes-sociais li i
+{
+	font-size: 25px;
+}
+
+.redes-sociais li i:hover
+{
+	color: purple;
+}
+
+.redes-sociais li a
+{
+	color: black;
+	text-decoration: none;
+}
+
+.btnVoltarTopo
+{
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+
+	border: none;
+	border-radius: 30px;
+	background: purple;
+	box-shadow: 0px 5px 10px rgba(36,8,128,0.4);
+
+	color: white;
+	font-size: 25px;
+}
+
+.form-control:focus
+{
+	border-color: #FFC107 !important;
+	box-shadow: none !important;
+}
+
+textarea
+{
+	resize: none !important;
+}
+
+.navbar-toggler
+{
+	border: 0px !important;
+}

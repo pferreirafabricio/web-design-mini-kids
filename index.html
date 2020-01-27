@@ -1,0 +1,531 @@
+﻿<!doctype html>
+<html>
+
+	<head>
+	
+		<title>Mini Kids - Uma nova forma de aprender</title>
+		
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+
+		<link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+
+		<!-- Meus estilos -->
+		<link rel="stylesheet" href="./css/style.css">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="./public/css/bootstrap.min.css"> 
+		
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/ce6b80ece0.js" crossorigin="anonymous"></script>
+
+	</head>
+	
+	<body>
+	
+		<!-- Início menu -->
+		<header>
+			<nav class="navbar navbar-expand-lg bg-white navbar-light">
+				<div class="container my-2">
+					<a href="index.html" class="navbar-brand font-weight-bold">
+						<img class="img-fluid" src="./img/logo.png" width="75" height="35" alt="">
+					</a>
+					
+					<button class="navbar-toggler" data-toggle="collapse" 
+					data-target="#menu" aria-expanded="false" aria-controls="menu">
+						<!-- Menu <i class="fas fa-bars ml-2"></i> -->
+						<span class="navbar-toggler-icon"></span>
+					</button>
+	
+					<!-- Itens menu -->
+					<div id="menu" class="collapse navbar-collapse">
+						<ul class="navbar-nav font-weight-bold mx-auto">
+							<li class="nav-item active mr-2"> 
+								<a href="#home" class="nav-link"> Início </a> 
+							</li>
+							<li class="nav-item mr-2"> 
+								<a href="#caracteristicas" class="nav-link"> O jogo </a> 
+							</li>
+							<li class="nav-item mr-2"> 
+								<a href="#pessoas" class="nav-link"> Sobre nós </a> 
+							</li>
+							<li class="nav-item mr-2"> 
+								<a href="#contato" class="nav-link"> Contato </a> 
+							</li>
+	
+							<li class="nav-item dropdown">
+								<a href="#" class="nav-link dropdown-toggle" id="parceirosDropdown" 
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Parceiros </a> 
+	
+								<div class="dropdown-menu">
+									<a href="http://ci.ufpb.br" class="dropdown-item" target="_blank">UFPB - CI</a>
+									<a href="http://www.etecmontemor.com.br" class="dropdown-item" target="_blank">ETEC Monte Mor</a>
+								</div>
+							</li>
+						</ul>
+
+						<!-- Botão de contribuir com o jogo -->
+						<ul class="navbar-nav">
+							<button class="btn btn-danger btnQueroJogar">
+								Contribuir
+							</button>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Fim  menu -->
+
+		<!-- Seção Apresentação -->
+		<section id="home">
+			<div class="container padding-baixo">
+				<!-- Início dos textos -->
+				<div class="row align-items-center">
+					<div class="col-md-12 col-xl-6">
+						<div class="jumbotron bg-transparent pb-0">
+							<h1 class="display-4 font-weight-bold">Um novo conceito em educação</h1>
+					
+							<p class="mt-4"> 
+								Já imaginou um jogo auxiliando na metodologia do professor?<br/>
+								Mini Kids foi projetado para ser ator coadjuvante no processo
+								ensino-aprendizagem, ajudando também no controle acâdemico dos alunos.
+							</p>
+							
+							<div class="divBotoes">
+								<button name="btnJogueAgora" class="btnJogueAgora" >JOGUE AGORA</button>
+								<i class="fa fa-play-circle btnVideo my-auto" 
+								data-toggle="tooltip" title="Assista a nosso vídeo sobre o projeto!" data-placement="top"></i>
+							</div>
+						</div>
+					</div>
+
+					<!-- Fim dos textos -->
+					
+					<!-- Imagem do lado -->
+					<div class="col-xl-6 d-none d-lg-block">
+						<div class="text-center">
+							<img class="img-fluid mb-5" src="./img/kids.svg" width="600px" height="600px">
+						</div>
+					</div>
+	
+				</div>
+			</div>
+		</section>
+		
+		<!-- Fim da Seção de Apresentação -->
+			
+		<!-- Características o do jogo -->
+		<section id="caracteristicas">
+			<!-- Titulo da seção -->
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="jumbotron bg-transparent mb-0">
+							<h2 class="font-weight-bold text-center mt-0">Conheça nosso jogo</h2>
+	
+							<p class="lead text-center">
+							Mini kids foi construído com as melhores e mais avançadas tecnologias
+							para desenvolvimento de jogos.
+							</p>
+						</div>	
+					</div>
+				</div>
+				
+				<div class="row pt-0 padding-baixo">
+					<!-- 1ª Característica -->
+					<div class="col-lg-4 col-md-12 text-center mb-5">
+						<div class="gradient-icon gradient-1">
+							<i class="fas fa-hands-helping"></i>
+						</div>
+						<h3 class="sub-titulo">Agregando na metodologia</h3>
+
+						<p>
+							Desenvolvido de acordo com as necessidades
+							educacionais de todos programas escolares.
+						</p>
+
+						<!-- <a href="#" class="caracteristica-link">
+							Saiba Mais
+							<i class="fas fa-chevron-right ml-2"></i>
+						</a> -->
+					</div>
+		
+					<!-- 2ª Característica -->
+					<div class="col-lg-4 col-md-12 text-center mb-5">
+						<div class="gradient-icon gradient-2">
+							<i class="fas fa-tasks"></i>
+						</div>
+
+						<h3 class="sub-titulo">Controle acadêmico</h3>
+
+						<p>
+							Módulo de sistema de controle acadêmico integrado para facilitar o acompanhamento do desempenho,
+							da execução das tarefas e da frequência.
+						</p>
+
+						<!-- <a href="#" class="caracteristica-link">
+							Saiba Mais
+							<i class="fas fa-chevron-right ml-2"></i>
+						</a> -->
+					</div>
+		
+					<!-- 3ª Característica -->
+					<div class="col-lg-4 col-md-12 text-center">
+						<div class="gradient-icon gradient-3">
+							<i class="fas fa-palette"></i>
+						</div>
+
+						<h3 class="sub-titulo">Recursos Lúdicos</h3>
+
+						<p>
+							Desenvolvido visando a maior quantidade de 
+							recursos lúdicos possíveis!
+						</p>
+
+						<!-- <a href="#" class="caracteristica-link">
+							Saiba Mais
+							<i class="fas fa-chevron-right ml-2"></i>
+						</a> -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Fim das características do jogo -->
+
+
+		<!-- Apresentação das pessoas envolvidas no projeto -->	
+		<section>
+			<!-- Titulo da seção -->
+			<div class="container padding-baixo" id="pessoas">
+				<div class="row">
+					<div class="col-12">
+						<div class="jumbotron bg-transparent mb-0">
+							<h2 class="font-weight-bold text-center mt-0">Quem somos?</h2>
+	
+							<p class="lead text-center">
+							Mini Kids foi desenvolvido em conjunto utilizando de diversas
+							áreas do conhecimento para sua construção, essa é a nossa equipe:
+							</p>
+						</div>	
+					</div>
+				</div>
+				
+				<div class="row">
+					<!-- Card da pessoa 1 -->
+					<div class="col-lg-3 col-md-6 col-12">
+						<h5 class="txtRoxo font-weight-bold">Autor</h5>
+						<div class="card mb-5">
+							<img src="./img/pessoa1.jpg" class="card-img-top">
+	
+							<div class="card-body">
+								<!-- Nome da pessoa -->
+								<h5 class="card-title font-weight-bold">Fabrício Pinto Ferreira</h5>
+								<!-- Descrição sobre a pessoa -->
+								<p class="card-text text-justify txtMenor">
+									Estudante na ETEC de Monte Mor, cursando o 3º
+									Ano do Ensino Médio Integrado ao Técnico em Informática.
+									Apaixonado por programação e design.
+								</p>
+								
+								<a href="#" class="btn btnSaibaMais">Saiba mais</a>
+								<a href="#" class="btn btn-outline-warning ml-2" data-toggle="modal" data-target="#modalContato"
+								data-nome="Fabrício Pinto Ferreira">Contate</a>
+							</div>
+						</div>
+					</div>
+	
+					<!-- Fim do card da pessoa 1 -->
+	
+					<!-- Card da pessoa 2 -->
+					<div class="col-lg-3 col-md-6 col-12">
+						<h5 class="txtRoxo font-weight-bold">Autor</h5>
+						<div class="card mb-5">
+							<img src="./img/pessoa2.jpg" class="card-img-top">
+	
+							<div class="card-body">
+								<!-- Nome da pessoa -->
+								<h5 class="card-title font-weight-bold">José João Júnior</h5>
+								<!-- Descrição sobre a pessoa -->
+								<p class="card-text text-justify txtMenor">
+									Estudante na UFPB, graduando em Ciência da Computação
+									iniciando o mestrado em Computação Distribuída.
+									Grande intusiasta de games.
+								</p>
+	
+								<a href="#" class="btn btnSaibaMais">Saiba mais</a>
+								<a href="#" class="btn btn-outline-warning ml-2" data-toggle="modal" data-target="#modalContato"
+								data-nome="José João Júnior">Contate</a>
+							</div>
+						</div>
+					</div>
+		
+						<!-- Fim do card da pessoa 2 -->
+	
+						<!-- Card da pessoa 3 -->
+					<div class="col-lg-3 col-md-6 col-12">
+						<!-- "Cargo" -->
+						<h5 class="txtRoxo font-weight-bold">Orientador</h5>
+						<div class="card mb-5">
+							<img src="./img/pessoa3.jpg" class="card-img-top">
+	
+							<div class="card-body">
+								<h5 class="card-title font-weight-bold">Danielle Rousy Dias</h5>
+								<p class="card-text text-justify txtMenor">
+									Professora Doutora em Serious Games na UFPB,
+									e coordenadora do curso de Informática Distribuída EAD 
+									atuando em mais de 25 projetos de extensão.
+								</p>
+								<!-- <i class="fas fa-atom"></i> -->
+	
+								<a href="#" class="btn btnSaibaMais">Saiba mais</a>
+								<a href="#" class="btn btn-outline-warning ml-2" data-toggle="modal" data-target="#modalContato"
+								data-nome="Danielle Rousy Dias">Contate</a>
+							</div>
+						</div>
+					</div>
+		
+					<!-- Fim do card da pessoa 3 -->
+	
+					<!-- Card da pessoa 4 -->
+					<div class="col-lg-3 col-md-6 col-12">
+						<h5 class="txtRoxo font-weight-bold">Orientador</h5>
+						<div class="card mb-5">
+							<img src="./img/pessoa4.jpg" class="card-img-top">
+	
+							<div class="card-body">
+								<h5 class="card-title font-weight-bold">Priscila Batista Martins</h5>
+								<p class="card-text text-justify txtMenor">
+									Professora na instituição de ensino Centro Paula Souza
+									a mais de 10 anos, mestre em Banco de Dados pela UFTS.
+									Grande intusiasta da ciência e pesquisa.
+								</p>
+								<!-- <i class="fas fa-atom"></i> -->
+	
+								<a href="#" class="btn btnSaibaMais">Saiba mais</a>
+								<a href="#" class="btn btn-outline-warning ml-2" data-toggle="modal" data-target="#modalContato"
+								data-nome="Priscila Batista Martins">Contate</a>
+							</div>
+						</div>
+					</div>
+		
+					<!-- Fim do card da pessoa 4 -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Fim da apresentação das pessoas envolvidas no projeto -->	
+
+		<!-- Menu Contato -->
+		<section id="contato">
+			<div class="container padding-encima">
+				<div class="row padding-baixo">
+					<!-- Texto do início da seção -->
+					<div class="jumbotron bg-transparent col-12 text-center mb-0">
+						<div class="container">
+							<h2 class="font-weight-bold mt-0">Vamos conversar um pouco!</h2>
+
+							<p class="lead">Mande uma mensagem pra gente para tirar suas dúvidas,
+							dar uma sugestão de melhoria, nos patrocinar ...
+							</p>
+						</div>
+					</div>
+
+					<!-- Formulário de contato -->
+					<div class="col-xl-6 col-md-12 mb-4">
+						<form action="" method="post">
+							<div class="card border">
+								<!-- Cabeçalho do card -->
+								<!-- <div class="card-header border-0 bg-warning text-center">
+									<h5 class="font-weight-bold">Contate</h5>
+								</div> -->
+
+								<!-- Todos os inputs -->
+								<div class="card-body">
+									<div class="row">
+										<!-- Input do nome -->
+										<div class="col-6">
+											<div class="form-group">
+												<label for="txtNome" class="txtRoxo font-weight-bold">Seu Nome *</label>
+												<input class="form-control" type="text" name="txtNome" id="txtNome" placeholder="Ex: João" required>
+											</div>
+										</div>
+			
+										<!-- Input do sobrenome -->
+										<div class="col-6">
+											<label for="txtSobrenome" class="txtRoxo font-weight-bold">Sobrenome</label>
+											<input class="form-control" type="text" name="txtSobrenome" id="txtSobrenome" placeholder="Ex: Silva">
+										</div>
+									</div>
+
+									<!-- Input do email -->
+									<div class="row mb-3">
+										<div class="col-12">
+											<label for="txtEmail" class="txtRoxo font-weight-bold">Seu E-mail *</label>
+											<input class="form-control" type="email" name="txtEmail" id="txtEmail" placeholder="Ex: joao@email.com" required>
+										</div>
+									</div>
+
+									<!-- Input do assunto -->
+									<div class="row mb-3">
+										<div class="col-12">
+											<label for="txtAssunto" class="txtRoxo font-weight-bold">Assunto</label>
+											<input class="form-control" type="text" name="txtAssunto" id="txtAssunto" placeholder="Ex: Dúvida sobre o jogo">
+										</div>
+									</div>
+
+									<!-- Textarea da mensagem -->
+									<div class="row mb-3">
+										<div class="col-12">
+											<label for="txtMensagem" class="txtRoxo font-weight-bold">Mensagem *</label>
+											<textarea class="form-control" name="txtMensagem" id="txtMensagem" cols="20" 
+											rows="5" aria-required="true" aria-invalid="false" placeholder="Escreva sua mensagem aqui" required></textarea>
+										</div>
+									</div>
+
+									<!-- Botão de enviar -->
+									<div class="row mb-3">
+										<div class="col-12">
+											<button class="btn btnSaibaMais" type="submit" id="btnEnviar" name="btnEnviar">
+												Enviar
+											</button>
+										</div>
+									</div>
+								</div>
+								<!-- Fim de todos os inputs -->
+							</div>
+						</form>
+					</div>
+					
+					<!-- Mapa -->
+					<div class="col-xl-6 col-md-12	">
+						<div class="row">
+							<div class="col-12 border-bottom">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.0505741809707!2d-47.29911708558219!3d-22.94836448499069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8a535da35a5af%3A0xf23b0432ab0b8c89!2sEscola%20T%C3%A9cnica%20Estadual%20Monte%20Mor!5e0!3m2!1spt-BR!2sbr!4v1570885859206!5m2!1spt-BR!2sbr" width="100%" height="225" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+								<p>R. Salomão Hadade Baruque, 1660, Monte Mor - SP, 13190-000</p>
+							</div>
+
+							<div class="col-12 mt-4">
+								<h6 class="txtAmarelo font-weight-bold">Email</h6>
+
+								<!-- <i class="fas fa-envelope mr-2 contact-icon"></i> -->
+								<p>minikidsbncc@gmail.com</p>
+							</div>
+
+							<div class="col-12 mt-4">
+								<h6 class="txtAmarelo font-weight-bold">Telefone</h6>
+
+								<!-- <i class="fas fa-envelope mr-2 contact-icon"></i> -->
+								<p>(19) 992281539</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<!-- Fim do menu de contato -->
+
+		<!-- Início do modal de contato -->
+		<section>
+			<div class="container">
+				<div id="modalContato" class="modal fade">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title font-weight-bold"></h4>
+								<button class="close" data-dismiss="modal" aria-label="Fechar">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+	
+							<div class="modal-body">
+								<div class="row">
+									<!-- Input do nome do remetente -->
+									<div class="col-6">
+										<div class="form-group">
+											<label for="txtNomeRemetente" class="font-weight-bold">Seu Nome *</label>
+											<input class="form-control" type="text" name="txtNomeRemetente" id="txtNomeRemetente" placeholder="Ex: João" required>
+										</div>
+									</div>
+		
+									<!-- Input do sobrenome do remetente -->
+									<div class="col-6">
+										<label for="txtSobrenomeRemetente" class="font-weight-bold">Sobrenome</label>
+										<input class="form-control" type="text" name="txtSobrenomeRemetente" id="txtSobrenomeRemetente" placeholder="Ex: Silva">
+									</div>
+								</div>
+								
+								<!-- Input do email do remetente -->
+								<label for="txtEmailRemetente" class="font-weight-bold">Seu E-mail *</label>
+								<input class="form-control" type="email" name="txtEmailRemetente" id="txtEmailRemetente" placeholder="Ex: joao@email.com" required>
+
+								<!-- Input do assunto do remetente -->
+								<label for="txtAssuntoRemetente" class="font-weight-bold mt-4">Assunto *</label>
+								<input class="form-control" type="text" name="txtAssuntoRemetente" id="txtAssuntoRemetente" placeholder="Ex: Dúvida sobre o jogo" required>
+							
+								<!-- Input da Menssagem do remetente -->
+								<label for="txtMensagem" class="font-weight-bold mt-4">Mensagem *</label>
+								<textarea class="form-control" name="txtMensagem" id="txtMensagem" cols="20" 
+								rows="5" aria-required="true" aria-invalid="false" placeholder="Ex: Escreva sua mensagem aqui" required></textarea>
+							</div>
+	
+							<div class="modal-footer">
+								<button class="btn btn-outline-danger" data-dismiss="modal">
+									Fechar
+								</button>
+
+								<button class="btn btnSaibaMais" type="submit">
+									Enviar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Fim dos modais de contato -->
+
+		<!-- Início rodapé -->
+		<footer class="bg-warning py-2">
+			<div class="container">
+				<div class="row text-center mt-3">
+					<!-- Direitos reservados -->
+					<div class="col-xl-6 col-md-12">
+						<p class="font-weight-bold">© 2019 Fabreco Studio All rights reserved</p>
+					</div>
+
+					<!-- Redes Sociais -->
+					<div class="col-xl-6 col-md-12">
+						<div>
+							<ul class="redes-sociais">
+								<li>
+									<a href="https://www.facebook.com/minikidsbncc/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/minikidsbncc/" target="_blank"><i class="fab fa-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Botão de voltar para o topo -->
+				<button id="btnVoltarTopo" class="btnVoltarTopo">
+					<i class="fas fa-angle-up"></i>
+				</button>
+			</div>
+			
+			<!-- JS -->
+			<script src="./public/js/jquery.js"></script>
+			<script src="./public/js/bootstrap.bundle.min.js"></script>
+			<script src="./public/js/myjs.js"></script> 
+		</footer>
+
+		<!-- Fim do rodapé -->
+	</body>
+
+</html>
